@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#decrease, #increase, #reset{
+        flex-direction: row;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: brown;
+        background-color: yellowgreen;
+    }
+
+#reset:hover{
+    color: black;
+    background-color: white;
+}
+
+#decrease:hover{
+    color: black;
+    background-color: white;
+}
+
+#increase:hover{
+    color: black;
+    background-color: white;
+}
+
+#count {
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background-color: dodgerblue;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: "shadow Into Light", cursive;
+}
